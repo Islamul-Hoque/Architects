@@ -37,6 +37,10 @@
     color: #FFFFFF;
 }
 
+main{
+    background-image: linear-gradient( to right, rgba(193, 225, 235, 0.266),   rgba(232, 102, 255, 0.112)  )
+}
+
 .btn{
     background-color: #FF900E;
     color: #FFFFFF;
@@ -64,6 +68,12 @@
 .grid-Sequence-2{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+.grid-Sequence-2__img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
 }
 
 /* --- FLEX CONTAINER STYLES --- */
@@ -95,7 +105,7 @@
 
 /* box-shadow Style */
 .box-shadow{
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* List Style */
@@ -129,11 +139,9 @@ header{
 
 .nav-link a{
     text-decoration: none;
-
 }
 
 /* BANNER SECTION */
-
 .banner h1{
     margin: 3rem 0 0;
 }
@@ -147,19 +155,49 @@ header{
     margin:1rem 0;
 }
 
-
 .banner-img img{
     max-width: calc(100% - 2rem);
     height: auto;
     margin: 1.4rem 0 0;
 }
 
+/* Features */
+.features{
+    padding: 2rem 5rem ;
+}
+
+.features-img img{
+    max-width: 100%;
+    height: auto;
+    /* margin: 1.4rem 0 0; */
+}
+
+.Features-description{
+    display: block;
+    align-items: center;
+}
+
+.Quick-list{
+    font-weight: 400;
+}
+
+.last-word{
+    color: #FF900E;
+}
+
+.features p{
+    margin: 1rem 0;
+}
+
+
+
+
 
 /* Small Devices */
-@media screen and (min-width: 320px) and (max-width:570px){ 
+@media screen and (min-width: 320px) and (max-width:575px){ 
 
     header{
-    padding: 0.6rem;
+        padding: 0.7rem;
     }
 
     nav{
@@ -167,15 +205,15 @@ header{
     }
     
     .font-size-1{
-    font-size: 1.7rem;
+        font-size: 1.7rem;
     }
 
     .font-size-2{
-    font-size: 1rem;
+        font-size: 1rem;
     }
     
     .font-size-3{
-    font-size: 0.75rem;
+        font-size: 0.75rem;
     }
 
     .nav-link{
@@ -191,18 +229,43 @@ header{
         margin: 2rem 0 0;
     }
 
-.banner p{
-    max-width: 80%;
-    margin: 0.6rem auto 0.7rem;
+    .banner p{
+        max-width: 80%;
+        margin: 0.6rem auto 0.7rem;
+    }
+
+    .banner-img img{
+        max-width: calc(100% - 0.2rem);
+    }
+
+/* Features */
+    .features{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0.6rem;
+    }
+
+    .features-container{
+        text-align: center;
+    }
+
+    .features p{
+        margin: 0.5rem 0;
+    }
+
 }
 
 
-.banner-img img{
-    max-width: calc(100% - 0.2rem);
-}
 
 
-}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -231,12 +294,6 @@ header{
 @media screen and (min-width: 1200px){ 
     
 }
-
-
-
-
-
-
 
 
 /* --- GRID ITEM STYLES --- */
