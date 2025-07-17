@@ -1,0 +1,253 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*  Universal selectors */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", sans-serif;
+    max-width: 1280px;
+}
+
+/* All color */
+
+.Dark-01{
+    color: #131313;
+}
+.Dark-02{
+    color: #424242;
+}
+.Dark-03{
+    color: #727272;
+}
+.Dark-04{
+    color: #A1A1A1;
+}
+.Dark-05{
+    color: #D0D0D0;
+}
+.Dark-06{
+    color: #E7E7E7;
+}
+.Dark-07{
+    color: #F3F3F3;
+}
+
+.White-Color{
+    color: #FFFFFF;
+}
+
+.btn{
+    background-color: #FF900E;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.6rem 1rem;
+    font-weight: 600;
+}
+
+.header-bg-color{
+    background-color: rgba(255, 216, 14, 0.1);
+}
+
+.footer-bg-color{
+    background-color: #FFF4E7;
+}
+
+
+/* --- GRID CONTAINER STYLES --- */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.grid-Sequence-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* --- FLEX CONTAINER STYLES --- */
+.display-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* TEXT STYLE */
+.align-items-center{
+    align-items: center;
+    text-align: center;
+}
+
+/* IMAGE STYLE */
+.image-filter{
+    filter: grayscale(100%);
+}
+
+/* Border-radius Style*/
+.border-radius-1{
+    border-radius: 0.8rem;
+}
+
+.border-radius-2{
+    border-radius: 0.5rem;
+}
+
+/* box-shadow Style */
+.box-shadow{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List Style */
+.list-style{
+    list-style: none;
+}
+
+/* Font-Size */
+.font-size-1{
+    font-size: 2.1rem;
+}
+
+.font-size-2{
+    font-size: 1.7rem;
+}
+
+.font-size-3{
+    font-size: 0.82rem;
+}
+
+
+/* --- HEADER SECTION --- */
+header{
+    padding: 2rem;
+}
+
+.nav-link .display-flex{
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.nav-link a{
+    text-decoration: none;
+
+}
+
+/* BANNER SECTION */
+
+.banner h1{
+    margin: 3rem 0 0;
+}
+
+.banner p{
+    max-width: 70%;
+    margin: 1rem auto;
+}
+
+.banner-description{
+    margin:1rem 0;
+}
+
+
+.banner-img img{
+    max-width: calc(100% - 2rem);
+    height: auto;
+    margin: 1.4rem 0 0;
+}
+
+
+/* Small Devices */
+@media screen and (min-width: 320px) and (max-width:430px){ 
+
+    header{
+    padding: 0.6rem;
+    }
+
+    nav{
+        background-color: #97ebba;
+    }
+    
+    .font-size-1{
+    font-size: 1.7rem;
+    }
+
+    .font-size-2{
+    font-size: 1rem;
+    }
+    
+    .font-size-3{
+    font-size: 0.75rem;
+    }
+
+    .nav-link{
+        font-size: 0.7rem;
+    }
+
+    .nav-link .display-flex{
+        gap: 0.8rem;
+    }
+
+/* BANNER SECTION */
+    .banner h1{
+        margin: 2rem 0 0;
+    }
+
+.banner p{
+    max-width: 80%;
+    margin: 0.6rem auto 0.7rem;
+}
+
+
+.banner-img img{
+    max-width: calc(100% - 0.2rem);
+}
+
+
+}
+
+
+
+
+/* Medium Devices */
+@media screen and (min-width: 576px) and (max-width:768px){ 
+    
+}
+
+/* Medium Devices */
+@media screen and (min-width: 576px) and (max-width:768px){ 
+    
+}
+
+/* Large Tab, Small Laptop */
+@media screen and (min-width: 769px) and (max-width:991px){ 
+    
+}
+
+/* Large Devices */
+@media screen and (min-width: 992px) and (max-width: 1199px){ 
+    
+}
+
+/* Extra Large Devices */
+@media screen and (min-width: 1200px){ 
+    
+}
+
+
+
+
+
+
+
+
+/* --- GRID ITEM STYLES --- */
+/* Specific grid item for a sidebar */
+
+/* --- FLEX ITEM STYLES --- */
+
+/* --- NAVIGATION BAR SECTION --- */
+/* --- HERO SECTION / BANNER SECTION --- */
+/* --- ABOUT SECTION --- */
+/* --- SERVICES / PRODUCTS SECTION --- */
+/* --- PORTFOLIO / GALLERY SECTION --- */
+/* --- CONTACT SECTION --- */
+/* --- FOOTER SECTION --- */
