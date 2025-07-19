@@ -453,11 +453,6 @@ header{
 }
 
 
-
-
-
-
-
 /* -----------------Medium Devices ------------------------ */
 @media screen and (min-width: 576px) and (max-width:768px){ 
 
@@ -518,22 +513,15 @@ header{
     .Features-Love{
     flex-wrap: wrap-reverse;
     margin:0 1.8rem;
-    gap: 1rem;    
-}
-
-    .Features-column-01{
-    /* margin-top: -1rem; */
-}
-
-    .Features-column-02{
-    padding-top: rem;
+    gap: 1rem; 
+    border: 1px solid blue;   
 }
 
     .Features-column-02 img{
-    border-radius:0 0.5rem 0.5rem 0;
-    height: 95vh;
-}
+        border-radius:0 0.5rem 0.5rem 0;
+        height: 95vh;
 
+}
 
     .Features-Love_btn{
     top: -2.1rem;
@@ -544,7 +532,7 @@ header{
 
 /* Facts */
     .Facts-header{
-    margin: 0.8rem;
+    margin: 0.8rem 1.8rem;
 }
 
     .Facts-header p{
@@ -578,20 +566,11 @@ header{
 }
 
 
-
-
-
-
-.hide{
+/* .hide{
     display: none;
-}
+} */
 
 
-
-/* Medium Devices */
-@media screen and (min-width: 576px) and (max-width:768px){ 
-    
-}
 
 /* Large Tab, Small Laptop */
 @media screen and (min-width: 769px) and (max-width:991px){ 
